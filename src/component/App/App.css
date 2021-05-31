@@ -1,0 +1,17 @@
+.app-container {
+	height: 40vh;
+	width: 50vw;
+	align-items: center;
+	display: grid;
+	justify-content: center;
+	padding: 100px 300px;
+  }
+  
+  @media screen and (max-width: 400px) {
+	.app-container {
+		 padding: 80px 90px;
+	}
+  }
+  #ctr{
+	text-align: center;
+  }
